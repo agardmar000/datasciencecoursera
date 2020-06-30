@@ -1,4 +1,4 @@
-pollutantmean <- function(directory = "specdata", pollutant, id = 1:332) {
+pollutantmean <- function(directory = "specdata", pollutant="sulfate", id = 1:332) {
   B <- c()
   if (pollutant == "sulfate") {
     z <- 2
